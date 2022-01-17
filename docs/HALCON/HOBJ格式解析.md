@@ -58,6 +58,35 @@ HOBJ用于存储HObject类型，包含Image、Region、XLD类型
   1 0 0 0 0 0 0 0   
   0 0 0 0 0 0 0 0
 - 数据：
+  11:  
+  12:  
+  13:  
+  14:  
+  15:  
+  16:  
+  17:  
+  18:行中心(row, double)  
+  21:列中心(column, double)   
+  22:矩(moment,double)
+  23:  
+  24:离心率(eccentricity)  
+  25:长短轴(ra,rb)  
+  26:角度(phi)  
+  27:凸度(convexity,double)  
+  28:长度(contlength，double)  
+  31:紧凑度(compactness, double)
+  32:圆度(circularity，double)
+  33:  
+  34:  
+  35:  
+  36:  
+  37:  
+  38:  
+
+### 标志数据
+- 顺序：圆度，紧凑度，长度, 凸度，角度(phi),长轴(ra),短轴(rb),离心率(ra_),离心率(rb_),矩(m11),矩(m20),矩(m02),矩(ia),矩(ib)
+- 二进制：3F C7 AE 5F 6C 2B D8 FD
+- 数据：0.1850089338474347
 
 ## 行中心
 - 二进制：40 15 3B 13 B1 3B 13 B1
