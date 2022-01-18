@@ -58,30 +58,30 @@ HOBJ用于存储HObject类型，包含Image、Region、XLD类型
   1 0 0 0 0 0 0 0   
   0 0 0 0 0 0 0 0
 - 数据：  
-  11:  
-  12:  
-  13:(无存储数据) 
-  14:  
-  15:(无存储数据)
-  16:  
-  17: 
-  18:AABB(row1, col1, row2, col2, double)  
-  21:中心面积(row, column, area, double)   
-  22:矩(moment,double)
-  23:
-  24:长短轴(ra_, rb_)  
-  25:长短轴(ra,rb)  
-  26:角度(phi)  
-  27:凸度(convexity,double)  
-  28:长度(contlength，double)  
-  31:紧凑度(compactness, double)
-  32:圆度(circularity，double)
-  33:  
-  34:标记(0,byte)  
-  35:标记(0,byte)   
-  36:标记(0,byte)   
-  37:标记(0,byte)  
-  38:形状(圆0,ABB1,OOBB2,byte)  
+  11:    
+  12:    
+  13:(无存储数据)   
+  14:    
+  15:(无存储数据)  
+  16:    
+  17:   
+  18:AABB(row1, col1, row2, col2, double)    
+  21:中心面积(row, column, area, double)     
+  22:矩(moment,double)  
+  23:  
+  24:长短轴(ra_, rb_)    
+  25:长短轴(ra,rb)    
+  26:角度(phi)    
+  27:凸度(convexity,double)    
+  28:长度(contlength，double)    
+  31:紧凑度(compactness, double)  
+  32:圆度(circularity，double)  
+  33:    
+  34:标记(0,byte)    
+  35:标记(0,byte)     
+  36:标记(0,byte)     
+  37:标记(0,byte)    
+  38:形状(圆0,ABB1,OOBB2,byte)    
 
 ### 标志数据
 - 顺序：形状, 标记, 圆度, 紧凑度, 长度, 凸度，角度(phi),长轴(ra),短轴(rb),长轴(ra_),短轴(rb_),矩(m11),矩(m20),矩(m02),矩(ia),矩(ib)
