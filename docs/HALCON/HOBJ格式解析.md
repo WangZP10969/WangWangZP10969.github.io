@@ -108,8 +108,8 @@ HOBJ用于存储HObject类型，包含Image、Region、XLD类型
   11:    
   12:    
   13:矩形度(rectangularity, double)   
-  14: 
-  15:欧拉数(a,b,uint16)   
+  14:   
+  15:行程长度范围(min,max,uint16)   
   16:    
   17:   
   18:AABB(row1, col1, row2, col2, uint16)    
@@ -131,7 +131,7 @@ HOBJ用于存储HObject类型，包含Image、Region、XLD类型
   38:形状(0,uint8)     
 
 #### 标志数据
-- 顺序：形状(圆0,ABB1,OOBB2), 标记, 圆度, 紧凑度, 长度, 凸度，角度(phi),长轴(ra),短轴(rb),长轴(ra_),短轴(rb_),矩(m11),矩(m20),矩(m02),矩(ia),矩(ib),行中心(row),列中心(column),像素数量(area),最小行(row1),最小列(col1),最大行(row2),最大列(col2)
+- 顺序：形状(圆0,ABB1,OOBB2), 标记, 圆度, 紧凑度, 长度, 凸度，角度(phi),长轴(ra),短轴(rb),长轴(ra_),短轴(rb_),矩(m11),矩(m20),矩(m02),矩(ia),矩(ib),行中心(row),列中心(column),像素数量(area),最小行(row1),最小列(col1),最大行(row2),最大列(col2),最短行程(min)，最长行程(),矩形度(rectangularity)
 - 二进制：02
 - 数据：2
 - 二进制：3F C7 AE 5F 6C 2B D8 FD
