@@ -107,9 +107,9 @@ HOBJ用于存储HObject类型，包含Image、Region、XLD类型
 - 数据：  
   11:    
   12:    
-  13:(无存储数据)   
-  14:    
-  15:(无存储数据)  
+  13:矩形度(rectangularity, double)   
+  14: 
+  15:欧拉数(a,b,uint16)   
   16:    
   17:   
   18:AABB(row1, col1, row2, col2, uint16)    
