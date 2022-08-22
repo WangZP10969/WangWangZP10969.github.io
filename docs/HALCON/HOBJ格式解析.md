@@ -109,7 +109,7 @@ HOBJ用于存储HObject类型，包含Image、Region、XLD类型
   15:行程长度范围(min,max,uint16)   
   16:    
   17:   
-  18:AABB(row1, col1, row2, col2, uint16)    
+  18:AABB(row1, col1, row2, col2, int16)    
   21:中心面积(row double, column double, area uint32)     
   22:矩(moment,double)  
   23:  
